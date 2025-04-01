@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VersionMe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 VersionMe</h1>
+    <p class="subtitle">Your personal patch notes generator</p>
+  </header>
+
+  <main>
+    <!-- Generate Button -->
+    <section class="generate-section">
+      <button id="generate-btn">🚀 Generate Version</button>
+    </section>
+
+    <!-- Current Version Display -->
+    <section class="current-section">
+      <h2 id="current-version" class="current-log">You are now v0.0.0 – awaiting first update...</h2>
+    </section>
+
+    <!-- Version History -->
+    <section class="history-section">
+      <h3>📜 Version History</h3>
+      <ul id="version-history" class="history-list">
+        <!-- Past logs will appear here -->
+      </ul>
+      <button id="clear-history">🧹 Clear History</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Logged and patched with caffeine – by Benjamin Lisle</p>
+  </footer>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
